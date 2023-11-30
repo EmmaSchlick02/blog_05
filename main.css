@@ -1,4 +1,29 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+main{
+    width: 980px;
+    height: auto;
+    border: 2px solid black;
+    margin: 10px auto;
+}
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    background-color:#fff;
+    margin: 20px 0px;
+    padding: 0px 20px 10px;
+    border-bottom: 1px solid #bebebe;
+    box-shadow: 0 6px 2px -2px #e0e0e0;
+}
+
+img{
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 10px auto;
 }
